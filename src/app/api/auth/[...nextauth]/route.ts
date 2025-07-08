@@ -3,7 +3,7 @@ import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import type { AuthOptions } from "next-auth";
 
-// ✅ Extend Session type to include user.id
+
 declare module "next-auth" {
   interface Session {
     user: {

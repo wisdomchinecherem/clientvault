@@ -1,15 +1,7 @@
-const Login = () => {
-  return (
-    <>
-      <div className="wrapper">
-        <div className="form">
-          <div>
-            <p>Welcome To Clientvault</p>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+"use client";
+
+const LogIn = () => {
+  return <div className="wrapper bg-black"></div>;
 };
 
-export default Login;
+export default LogIn;
